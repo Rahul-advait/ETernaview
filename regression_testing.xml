@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test">
+    <test name="Milestone 1" preserve-order="true">
+        <classes>
+            <class name="TestClasses.CreatePracticeEternaview">
+
+<!--                <methods>-->
+<!--                    <include name="testRememberMe" />-->
+<!--                    <include name="signUpRedirect" />-->
+<!--                    <include name="validCredentials" />-->
+<!--                </methods>-->
+                <!--                <class name="org.testclasses.VerifyUpcomingPage">-->
+            </class>
+        </classes>
+    </test>
+</suite>

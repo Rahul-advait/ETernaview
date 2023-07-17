@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+        <Property name="basePath">./logs</Property>
+    </Properties>
+    <Appenders>
+        <RollingFile name="File" fileName="${basePath}/app.log"
+                     filePattern="${basePath}/app-%d{yyyy-MM-dd-HHmm}.log">
+            <PatternLayout
+                    pattern="%highlight{%d{HH:mm:ss.SSS} %-5level %c{2} -%msg%n}{FATAL=bg_red, ERROR=yellow, WARN=yellow, INFO=grey, SUCCESS=green}"/>
+            <DefaultRolloverStrategy max="1"/>
+                        <Policies>
+                            <TimeBasedTriggeringPolicy modulate="true" interval="3"/>
+                            <SizeBasedTriggeringPolicy size="100 KB"/>
+                        </Policies>
+        </RollingFile>
+        <Console name="Console">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{1} -%msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="File"/>
+        </Root>
+        <Logger name="org.testclasses" level="info" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+    </Loggers>
+</Configuration>

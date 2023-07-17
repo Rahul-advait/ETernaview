@@ -1,0 +1,33 @@
+20:35:21.378 INFO  MainBase.CustomDriver -Allow Cookies, found  Allow Cookies
+20:35:21.664 INFO  MainBase.CustomDriver -Clicked on::Allow Cookies
+20:35:21.840 INFO  MainBase.CustomDriver -NAVBAR_TOGGLE btn, found  NAVBAR_TOGGLE btn
+20:35:22.066 INFO  MainBase.CustomDriver -Clicked on::NAVBAR_TOGGLE btn
+20:35:22.095 INFO  MainBase.CustomDriver -Waiting for max:: 10 seconds for element to be clickable
+20:35:22.632 INFO  MainBase.CustomDriver -Element is clickable on the web page
+20:35:23.228 INFO  MainBase.CustomDriver -Clicked on::Login/Register Btn
+20:35:23.381 INFO  MainBase.CustomDriver -Email Field, found  Email Field
+20:35:23.908 INFO  MainBase.CustomDriver -Send Keys on element :: Email Field with data :: automation@yopmail.com
+20:35:24.053 INFO  MainBase.CustomDriver -Pass Field, found  Pass Field
+20:35:24.587 INFO  MainBase.CustomDriver -Send Keys on element :: Pass Field with data :: Test@123
+20:35:24.660 INFO  MainBase.CustomDriver -LOGIN_SUBMIT, found  LOGIN_SUBMIT
+20:35:24.897 INFO  MainBase.CustomDriver -Clicked on::LOGIN_SUBMIT
+20:35:24.910 INFO  MainBase.CustomDriver -Waiting for max:: 15 seconds for element to be clickable
+20:35:27.672 INFO  MainBase.CustomDriver -Element is clickable on the web page
+20:35:28.107 INFO  MainBase.CustomDriver -Clicked on::SUCC_ALERT_CLOSE
+20:35:28.289 INFO  MainBase.CustomDriver -Toggle bar, found  Toggle bar
+20:35:29.034 INFO  MainBase.CustomDriver -Clicked on::Toggle bar
+20:35:29.050 INFO  MainBase.CustomDriver -Waiting for max:: 10 seconds for element to be clickable
+20:35:29.291 INFO  MainBase.CustomDriver -Element is clickable on the web page
+20:35:29.941 INFO  MainBase.CustomDriver -Clicked on::CREATE_LINK
+20:35:33.001 INFO  MainBase.CustomDriver -Waiting for max:: 10 seconds for element to be clickable
+20:35:33.166 INFO  MainBase.CustomDriver -Element is clickable on the web page
+20:35:33.680 INFO  MainBase.CustomDriver -Clicked on::CREATE_MY_ETERNAVIEW
+20:35:33.705 INFO  MainBase.CustomDriver -Waiting for max:: 5 seconds for element to be available
+20:35:33.850 INFO  MainBase.CustomDriver -Element appeared on the web page Direction text
+20:35:34.015 INFO  MainBase.CustomDriver -Direction Continure Btn, found  Direction Continure Btn
+20:35:34.070 INFO  MainBase.CustomDriver -Scrolled on :: Direction Continure Btn
+20:35:34.105 INFO  MainBase.CustomDriver -DIRECTION_CONTINUE, found  DIRECTION_CONTINUE
+20:35:34.289 INFO  MainBase.CustomDriver -Clicked on::DIRECTION_CONTINUE
+20:35:34.314 INFO  MainBase.CustomDriver -Waiting for max:: 10 seconds for element to be available
+20:35:34.416 ERROR MainBase.CustomDriver -Element not appeared on the web page Start Recording Btn
+20:35:34.429 INFO  MainBase.CustomDriver -Getting Text on element :: Start Recording Btn
